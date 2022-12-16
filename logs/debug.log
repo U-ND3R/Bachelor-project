@@ -1,0 +1,658 @@
+2022-12-12 17:20:55 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:20:55 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:20:55 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:20:55 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:21:23 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:21:23 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:21:23 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:21:23 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:30 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:30 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:30 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:30 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:43 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:43 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:43 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:43 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:44 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:44 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:44 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:44 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:54 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:54 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:54 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:26:54 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:31:45 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:31:45 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:31:45 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+C:\Users\artio\Leaf\config\routes.php, line: 83
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 880
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+
+2022-12-12 17:31:46 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::prefix() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Router.php, line 892
+Cake\Http\BaseApplication::{closure}() C:\Users\artio\Leaf\config\routes.php, line 83
+Cake\Http\BaseApplication::routes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Routing\Middleware\RoutingMiddleware::prepareRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 135
+Cake\Routing\Middleware\RoutingMiddleware::buildRouteCollection() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 124
+Cake\Routing\Middleware\RoutingMiddleware::loadRoutes() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 95
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 155
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\Users\artio\Leaf\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\Users\artio\Leaf\webroot\index.php, line 40
+

@@ -1,0 +1,26 @@
+2022-12-03 22:46:07 warning: Undefined array key 1
+Trace:
+Migrations\Util\ColumnParser::parseFields() C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Util\ColumnParser.php, line 54
+Migrations\Command\BakeMigrationCommand::templateData() C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Command\BakeMigrationCommand.php, line 95
+Migrations\Command\BakeSimpleMigrationCommand::bake() C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Command\BakeSimpleMigrationCommand.php, line 125
+Migrations\Command\BakeMigrationCommand::bake() C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Command\BakeMigrationCommand.php, line 55
+Migrations\Command\BakeSimpleMigrationCommand::execute() C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Command\BakeSimpleMigrationCommand.php, line 89
+Cake\Console\BaseCommand::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 189
+Cake\Console\CommandRunner::runCommand() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+[main] C:\Users\artio\Leaf\bin\cake.php, line 12
+
+2022-12-03 22:46:07 error: [TypeError] substr(): Argument #1 ($string) must be of type string, null given in C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Util\ColumnParser.php on line 231
+Stack Trace:
+- C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Util\ColumnParser.php:231
+- C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Util\ColumnParser.php:204
+- C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Util\ColumnParser.php:70
+- C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Command\BakeMigrationCommand.php:95
+- C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Command\BakeSimpleMigrationCommand.php:125
+- C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Command\BakeMigrationCommand.php:55
+- C:\Users\artio\Leaf\vendor\cakephp\migrations\src\Command\BakeSimpleMigrationCommand.php:89
+- C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\Users\artio\Leaf\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Users\artio\Leaf\bin\cake.php:12
+
